@@ -6,5 +6,6 @@ public class Git {
         System.out.println("hello git1");
         System.out.println("master commit");
         System.out.println("fix commit");
+        System.out.println("push test");
     }
 }
