@@ -9,9 +9,9 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: orderservice
-  cloud:
-    nacos:
-      server-addr: localhost:8848
+#  cloud:
+#    nacos:
+#      server-addr: localhost:8848
 
 
 #      discovery:
@@ -30,10 +30,10 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:10086/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
 feign:
   client:
 #    config:
